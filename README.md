@@ -6,7 +6,8 @@ Solving problems just for fun.
 Repository structure
 --------------------
 
-Each directory except `template` contains a solution of the eponymous LeetCode problem.
+Problem solutions are located in the `solutions` directory. Each subdirectory
+except `template` contains a solution of the eponymous LeetCode problem.
 The `template` directory is a skeleton to create a new solution directory.
 Inside a solution directory there are the following files:
 
@@ -28,7 +29,7 @@ GNU Make and a decent C++ compiler supporting at least C++11 are required to bui
 Building and running
 --------------------
 
-To build all solutions, run `make all` or simply `make` in the repository root directory.
+To build all solutions, run `make all` or simply `make` in the `solutions` directory.
 To clean up, run `make clean`.
 
 To build a particular solution, run `make <problem-name>` or enter the problem directory
