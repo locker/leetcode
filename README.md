@@ -21,6 +21,9 @@ Inside a solution directory there are the following files:
 
 The solution executable built by the makefile is named `solution`.
 
+The `by-difficulty` directory contains symlinks to solution directories
+grouped by difficulty (easy, medium, hard).
+
 Prerequisites
 -------------
 
