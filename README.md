@@ -24,6 +24,10 @@ The solution executable built by the makefile is named `solution`.
 The `by-difficulty` directory contains symlinks to solution directories
 grouped by difficulty (easy, medium, hard).
 
+`add-solution.sh` is a shell script that given a problem name and difficulty
+creates the corresponding solution directory from the template and makes a
+symlink to it in the `by-difficulty` directory.
+
 Prerequisites
 -------------
 
