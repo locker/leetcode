@@ -1,0 +1,33 @@
+Given a binary tree
+
+struct Node {
+  int val;
+  Node *left;
+  Node *right;
+  Node *next;
+}
+
+Populate each next pointer to point to its next right node. If there is no next
+right node, the next pointer should be set to NULL.
+
+Initially, all next pointers are set to NULL.
+
+Example:
+
+     1             1 -> null
+    /  \          /  \
+   2    3        2 -> 3 -> null
+  /\     \      /\     \
+ 4  5     7    4->5 ->  7 -> null
+
+  Figure A      Figure B
+
+Explanation: Given the above binary tree (Figure A), your function should
+populate each next pointer to point to its next right node, just like in
+Figure B.
+
+Note:
+
+ - You may only use constant extra space.
+ - Recursive approach is fine, implicit stack space does not count as extra
+   space for this problem.
