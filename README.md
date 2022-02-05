@@ -32,7 +32,7 @@ directories.
 Prerequisites
 -------------
 
-GNU Make and a decent C++ compiler supporting at least C++11 are required to build solutions.
+GNU Make and a decent C++ compiler supporting at least C++17 are required to build solutions.
 
 Building and running
 --------------------

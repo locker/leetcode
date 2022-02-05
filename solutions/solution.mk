@@ -1,4 +1,4 @@
-CXXFLAGS := -Wall
+CXXFLAGS := -Wall -Werror -std=c++17
 
 all: solution
 
