@@ -17,3 +17,5 @@ for tag in `echo $problem_tags | tr , \\\n`; do
 	mkdir -pv $dir/by-tag/$tag
 	ln -sv ../../solutions/$problem_name $dir/by-tag/$tag
 done
+
+echo https://leetcode.com/problems/$problem_name/ > $dir/solutions/$problem_name/link.txt
